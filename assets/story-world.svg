@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="684" height="640" viewBox="0 0 684 640" fill="none" role="img">
+<defs>
+ <linearGradient id="paperLeft" x1="130" y1="272" x2="344" y2="535" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFF4DC"/></linearGradient>
+ <linearGradient id="paperRight" x1="344" y1="261" x2="574" y2="530" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7F4FF"/></linearGradient>
+ <linearGradient id="pinkGrad" x1="80" y1="187" x2="282" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#FF8DA3"/><stop offset="1" stop-color="#FF467F"/></linearGradient>
+ <linearGradient id="planetGrad" x1="405" y1="307" x2="505" y2="441" gradientUnits="userSpaceOnUse"><stop stop-color="#64E4E5"/><stop offset="1" stop-color="#4179E8"/></linearGradient>
+ <filter id="mainShadow" x="34" y="200" width="634" height="442" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="17"/></filter>
+ <filter id="pencilShadow" x="447" y="38" width="203" height="300" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<!-- backdrop -->
+<circle cx="364" cy="292" r="248" fill="#6845E9" opacity=".82"/>
+<circle cx="364" cy="291" r="211" stroke="#B99CFF" stroke-width="2" stroke-dasharray="6 13" opacity=".65"/>
+<ellipse cx="360" cy="561" rx="239" ry="23" fill="#1E0D62" opacity=".22"/>
+<!-- decorative confetti -->
+<path d="M106 124l8 22 23 7-23 7-8 22-8-22-23-7 23-7 8-22Z" fill="#FFCE46"/>
+<path d="m555 395 5 13 13 5-13 5-5 13-5-13-13-5 13-5 5-13Z" fill="#FFCE46"/>
+<path d="m243 92 4 11 12 4-12 5-4 11-4-11-12-5 12-4 4-11Z" fill="#FF7F9C"/>
+<path d="m542 170 5 14 15 5-15 5-5 14-5-14-15-5 15-5 5-14Z" fill="#5EE6E4"/>
+<circle cx="583" cy="104" r="7" fill="#FFCE46"/>
+<circle cx="82" cy="380" r="10" fill="#56D5E8"/>
+<circle cx="166" cy="82" r="5" fill="#FF7F9C"/>
+<circle cx="617" cy="314" r="8" fill="#FD7198"/>
+<path d="M148 210c26-24 55-34 88-31M470 95c20-12 40-13 58-8" stroke="#FFD94A" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 17"/>
+<!-- floating little cover top left -->
+<g transform="rotate(-13 187 171)">
+<rect x="144" y="108" width="100" height="134" rx="10" fill="#1B0B5D" opacity=".25"/>
+<rect x="137" y="98" width="100" height="134" rx="9" fill="url(#pinkGrad)" stroke="#FFC5D6" stroke-width="3"/>
+<rect x="145" y="104" width="5" height="121" rx="2" fill="#A52368" opacity=".6"/>
+<circle cx="191" cy="148" r="24" fill="#FFC945"/>
+<path d="M168 163c7-8 18-18 24-24 3 9 16 17 24 24-15-1-31-2-48 0Z" fill="#6333C7"/>
+<path d="m188 187 3 6 7 1-5 5 1 8-6-4-6 4 2-8-5-5 7-1 2-6Z" fill="#FFF6E1"/>
+</g>
+<!-- pencil in background -->
+<g transform="rotate(32 544 183)">
+ <rect x="532" y="71" width="31" height="249" rx="11" fill="#22136B" opacity=".16" transform="translate(9 10)"/>
+ <rect x="528" y="60" width="34" height="235" rx="8" fill="#FFD238"/>
+ <rect x="528" y="60" width="34" height="39" rx="8" fill="#FC6B86"/>
+ <rect x="528" y="92" width="34" height="10" fill="#FCEDE8"/>
+ <rect x="541" y="110" width="7" height="177" fill="#F9A72D" opacity=".8"/>
+ <path d="M528 291h34l-17 49-17-49Z" fill="#FFDFB8"/>
+ <path d="m537 316 8 24 8-24-16 0Z" fill="#282174"/>
+</g>
+<!-- book thick cover with shadow -->
+<g filter="url(#mainShadow)"><path d="M87 306c98-41 181-35 259 15 82-51 178-67 269-33l-3 235c-111-38-190-21-266 23-84-47-165-64-266-25l7-215Z" fill="#160A51" opacity=".45"/></g>
+<path d="M89 311c98-41 179-30 257 19 87-54 176-70 268-34l-1 230c-99-37-184-23-267 22-89-47-175-65-264-25l7-212Z" fill="#1C0B63" stroke="#190951" stroke-width="9" stroke-linejoin="round"/>
+<!-- left and right pages -->
+<path d="M100 286c87-36 165-27 246 24v220c-83-49-160-62-253-23l7-221Z" fill="url(#paperLeft)" stroke="#F2D9BC" stroke-width="3"/>
+<path d="M346 310c80-52 160-68 256-35v225c-89-35-179-20-256 30V310Z" fill="url(#paperRight)" stroke="#D0E7FF" stroke-width="3"/>
+<path d="M346 310v222" stroke="#A597C7" stroke-width="4" stroke-linecap="round"/>
+<path d="M107 299c79-31 155-18 227 25M357 323c70-46 154-60 235-34" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".82"/>
+<!-- left page handwritten story -->
+<g transform="rotate(2 211 402)">
+ <rect x="122" y="328" width="171" height="32" rx="16" fill="#FFE59A"/>
+ <text x="137" y="351" font-family="Georgia, serif" font-size="23" font-style="italic" font-weight="bold" fill="#50259F">Once upon a time...</text>
+ <path d="M128 385h159M128 401h156M128 417h129M128 433h147M128 449h114" stroke="#BEB4D1" stroke-width="4" stroke-linecap="round"/>
+ <path d="M140 482c15-16 31-16 47-3s30 16 47-1" stroke="#F17498" stroke-width="5" stroke-linecap="round"/>
+ <path d="m266 469 5 13 14 4-14 4-5 14-5-14-14-4 14-4 5-13Z" fill="#F9A92D"/>
+</g>
+<!-- right page illustrated story: sky, moon, castle -->
+<g>
+ <path d="M371 349c61-41 135-54 210-36v159c-67-19-140-5-210 31V349Z" fill="#5F59D9"/>
+ <path d="M371 349c61-41 135-54 210-36v87c-65-11-136 7-210 50V349Z" fill="#557FE8"/>
+ <circle cx="500" cy="356" r="30" fill="#FFDC6E"/>
+ <circle cx="488" cy="346" r="30" fill="#557FE8"/>
+ <path d="M372 443c47-41 94-53 133-47 29 4 50 14 76 13v64c-70-11-144 5-209 34v-64Z" fill="#48D4C3"/>
+ <path d="M372 473c56-37 117-44 156-33 23 7 36 8 53 7v28c-71-13-132-3-209 35v-37Z" fill="#249EC9"/>
+ <rect x="449" y="400" width="46" height="45" rx="5" fill="#FB7E9B"/>
+ <path d="M444 406l28-27 28 27h-56Z" fill="#FFD04C"/>
+ <rect x="469" y="421" width="13" height="24" rx="6" fill="#42219D"/>
+ <path d="M407 433v38M401 447h12" stroke="#1A6196" stroke-width="6" stroke-linecap="round"/>
+ <circle cx="405" cy="423" r="18" fill="#FFD04C"/>
+ <circle cx="409" cy="419" r="8" fill="#FB7E9B"/>
+ <path d="m543 387 4 9 10 3-10 3-4 10-4-10-10-3 10-3 4-9Z" fill="#FFFFFF"/>
+ <circle cx="395" cy="368" r="4" fill="#FFF2B3"/><circle cx="464" cy="347" r="3" fill="#FFF2B3"/><circle cx="553" cy="367" r="4" fill="#FFF2B3"/>
+</g>
+<!-- airy upward creative swirl -->
+<path d="M306 256c-20-25-17-50 8-63 35-18 48 8 37 26-13 22-41 16-32-10M381 249c20-27 47-35 79-28" stroke="#FFCC47" stroke-width="5" stroke-linecap="round" stroke-dasharray="6 14"/>
+<path d="m382 178 6 16 18 5-18 6-6 17-6-17-18-6 18-5 6-16Z" fill="#FFCC47"/>
+<path d="m252 261 6 12 13 4-13 5-6 13-5-13-14-5 14-4 5-12Z" fill="#FF6D9A"/>
+<path d="M516 212c8-12 19-22 31-28" stroke="#70ECE2" stroke-width="4" stroke-linecap="round"/>
+</svg>
