@@ -152,9 +152,12 @@ h1 span { display: block; white-space: nowrap; }
 .book-feelings { background: #e77991; }
 .feel-heart { position: absolute; top: 10px; left: 19px; color: #ffd7a8; font-size: 65px; }
 .feel-spark { position: absolute; top: 5px; right: 8px; color: #fff6c4; font-size: 20px; }
-.tube-quote { left: 24px; bottom: 19px; transform: rotate(-8deg); }
+.tube-quote { right: 24px; bottom: 19px; transform: rotate(-8deg); }
 .tube-quote span:first-child { color: #ffb642; font-size: 20px; }
 .product-content { padding: 33px 36px 35px; display: flex; flex: 1; flex-direction: column; }
+.product-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.product-logo { display: block; align-self: flex-start; width: auto; height: 64px; margin-top: 18px; }
+.product-logo-wide { height: 72px; }
 .product-number { display: flex; align-items: center; justify-content: space-between; color: #6843b3; font-size: 10px; letter-spacing: .15em; font-weight: 900; }
 .product-top-arrow { color: #6732cf; font-size: 22px; letter-spacing: 0; font-weight: 500; }
 .product-content h3 { font-size: 38px; letter-spacing: -.075em; font-weight: 800; line-height: 1.2; margin: 10px 0 10px; color: #2b1b65; }
