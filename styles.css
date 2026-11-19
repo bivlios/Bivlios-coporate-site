@@ -104,54 +104,11 @@ h1 span { display: block; white-space: nowrap; }
 .product-visual { min-height: 337px; position: relative; overflow: hidden; isolation: isolate; display: flex; align-items: center; justify-content: center; }
 .giant-visual { background: radial-gradient(circle at 0% 20%, #885fff 0, transparent 38%), linear-gradient(130deg,#4b26ba 3%,#632dde 100%); }
 .giant-visual:before { content: ''; position: absolute; z-index: -1; width: 330px; height: 330px; background: #ffffff0d; border: 1px solid #ffffff27; border-radius: 50%; right: -65px; top: -121px; }
-.decor-star { position: absolute; color: #ffca3e; line-height: 1; }
-.star-giant-1 { font-size: 66px; left: 28px; top: 30px; transform: rotate(14deg); }
-.star-giant-2 { font-size: 27px; right: 40px; bottom: 24px; }
-.paper-editor { width: 72%; max-width: 400px; min-height: 246px; background: #f8f8ff; border-radius: 13px; transform: rotate(-6deg) translateY(1px); box-shadow: 13px 21px 0 #28107c2d, 0 26px 35px #1c0e6030; overflow: hidden; }
-.editor-top { height: 36px; background: #efeaff; display: flex; align-items: center; justify-content: space-between; padding-inline: 15px; color: #7c63b9; font-size: 9px; }
-.editor-top-name { color: #5a36aa; font-size: 10px; font-weight: 900; letter-spacing: .12em; }
-.editor-top-dots { display: inline-flex; gap: 4px; }
-.editor-top-dots i { border-radius: 50%; background: #f7b850; width: 6px; height: 6px; }
-.editor-top-dots i:nth-child(2) { background: #fb7395; } .editor-top-dots i:nth-child(3) { background: #65b6de; }
-.editor-page { padding: 21px; display: grid; grid-template-columns: .85fr 1fr; gap: 17px; }
-.editor-book-cover { height: 165px; position: relative; overflow: hidden; border-radius: 5px; background: #2263ca; box-shadow: 5px 4px 0 #133f9973; }
-.editor-book-cover:before { content: ''; position: absolute; inset: 0; background: linear-gradient(165deg,#1a328d,transparent 65%); }
-.cover-sun { width: 75px; height: 75px; position: absolute; top: 18px; left: 20px; border-radius: 50%; background: #ffe081; }
-.cover-hills { position: absolute; bottom: -20px; left: -25px; width: 170px; height: 86px; border-radius: 55% 55% 0 0; background: #34cbb5; transform: rotate(16deg); }
-.cover-hills:after { content: ''; position: absolute; bottom: 0; left: 70px; width: 120px; height: 86px; border-radius: 55% 55% 0 0; background: #7465e7; }
-.cover-planet { position: absolute; top: 25px; right: 19px; color: #fff3c2; }
-.editor-writing { position: relative; padding-top: 16px; }
-.script-label { display: block; font-family: Georgia,serif; font-style: italic; font-size: 14px; font-weight: bold; color: #462c92; margin-bottom: 20px; white-space: nowrap; }
-.writing-line { display: block; height: 5px; background: #cec7e6; border-radius: 10px; margin-top: 13px; }
-.writing-line.long { width: 94%; } .writing-line.mid { width: 79%; } .writing-line.short { width: 64%; }
-.editor-decoration { position: absolute; bottom: -7px; right: 6px; font-size: 28px; transform: rotate(-24deg); color: #fb7d91; }
 .giant-quote,.tube-quote { display: inline-flex; align-items: center; gap: 8px; position: absolute; z-index: 1; background: #fff; color: #3d238c; box-shadow: 0 10px 24px #20106638; border-radius: 12px; padding: 12px 16px; font-weight: 800; font-size: 11px; }
 .giant-quote { right: 23px; bottom: 24px; transform: rotate(8deg); }
 .quote-spark { color: #f58b47; font-size: 19px; }
 .tube-visual { background: radial-gradient(circle at 82% 10%, #8cedf0 0, transparent 39%), linear-gradient(132deg,#1678df,#22bcd6); }
 .tube-visual:before { content: ''; position: absolute; z-index: -1; width: 380px; height: 380px; border: 1px solid #ffffff61; border-radius: 50%; left: -120px; bottom: -220px; }
-.tube-star { position: absolute; color: #ffe270; }
-.star-tube-1 { font-size: 70px; top: 16px; right: 36px; }
-.star-tube-2 { font-size: 27px; bottom: 22px; left: 26px; }
-.library-frame { width: 79%; max-width: 440px; min-height: 242px; background: #ffffff; border-radius: 12px; padding: 21px 24px; box-shadow: 14px 20px 0 #096aad35,0 25px 34px #104b8a3b; transform: rotate(5deg) translateY(-2px); }
-.library-heading { display: flex; align-items: center; justify-content: space-between; gap: 5px; }
-.library-heading strong { color: #2d369e; letter-spacing: -.05em; font-size: 17px; font-weight: 900; }
-.library-heading strong span { color: #ec7a46; }
-.library-pill { border-radius: 14px; background: #edf8ff; color: #3a87a6; font-size: 7px; font-weight: 900; letter-spacing: .08em; padding: 6px 9px; }
-.library-title { font-family: Georgia,serif; color: #33327f; font-size: 17px; font-weight: bold; margin: 16px 0 14px; }
-.book-row { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 11px; }
-.book-cover { height: 134px; border-radius: 5px; position: relative; overflow: hidden; box-shadow: 4px 5px 0 #1b28792b; }
-.book-cover strong { position: absolute; z-index: 1; left: 12px; bottom: 13px; font-size: 10px; line-height: 1.15; color: white; letter-spacing: .035em; }
-.book-space { background: linear-gradient(160deg,#15235c,#345db5); }
-.space-orbit { position: absolute; border: 2px solid #fff3bc9e; border-radius: 50%; width: 115px; height: 53px; transform: rotate(35deg); top: 13px; left: 0; }
-.space-planet { position: absolute; width: 58px; height: 58px; border-radius: 50%; background: #ffb96d; top: 17px; left: 23px; }
-.book-nature { background: #218b8a; }
-.nature-sun { position: absolute; width: 55px; height: 55px; border-radius: 50%; background: #ffcf49; top: 13px; right: 12px; }
-.nature-hill { position: absolute; width: 120px; height: 82px; background: #17586a; border-radius: 70% 70% 0 0; top: 63px; left: -30px; transform: rotate(25deg); }
-.nature-leaf { position: absolute; color: #cce9a8; font-size: 24px; left: 14px; top: 42px; }
-.book-feelings { background: #e77991; }
-.feel-heart { position: absolute; top: 10px; left: 19px; color: #ffd7a8; font-size: 65px; }
-.feel-spark { position: absolute; top: 5px; right: 8px; color: #fff6c4; font-size: 20px; }
 .tube-quote { right: 24px; bottom: 19px; transform: rotate(-8deg); }
 .tube-quote span:first-child { color: #ffb642; font-size: 20px; }
 .product-content { padding: 33px 36px 35px; display: flex; flex: 1; flex-direction: column; }
@@ -209,8 +166,6 @@ a:focus-visible,button:focus-visible { outline: 3px solid #ffcc42; outline-offse
  .hero-sticker { padding: 11px 13px; font-size: 10px; }
  .sticker-top { top: 65px; left: 3px; }
  .sticker-bottom { bottom: 49px; right: -12px; }
- .paper-editor { width: 79%; }
- .library-frame { width: 84%; }
  .mission-layout { gap: 45px; }
 }
 @media (max-width: 800px) {
@@ -235,14 +190,6 @@ a:focus-visible,button:focus-visible { outline: 3px solid #ffcc42; outline-offse
  .products-explainer { max-width: 630px; }
  .product-grid { gap: 18px; }
  .product-visual { min-height: 250px; }
- .paper-editor { width: 87%; min-height: 180px; }
- .editor-page { padding: 14px; gap: 10px; }
- .editor-book-cover { height: 125px; }
- .script-label { font-size: 11px; }
- .writing-line { margin-top: 11px; }
- .library-frame { width: 85%; min-height: 200px; padding: 14px; }
- .book-cover { height: 105px; }
- .library-title { font-size: 13px; margin: 12px 0; }
  .product-content { padding: 28px 25px 29px; }
  .product-content h3 { font-size: 33px; }
  .product-content h4 { font-size: 18px; }
@@ -288,14 +235,6 @@ a:focus-visible,button:focus-visible { outline: 3px solid #ffcc42; outline-offse
  .products-explainer { font-size: 14px; }
  .product-grid { grid-template-columns: 1fr; gap: 23px; }
  .product-visual { min-height: 295px; }
- .paper-editor { width: 74%; min-height: 217px; }
- .editor-page { padding: 17px; gap: 13px; }
- .editor-book-cover { height: 140px; }
- .script-label { font-size: 13px; }
- .writing-line { margin-top: 13px; }
- .library-frame { width: 78%; min-height: 228px; padding: 18px; }
- .book-cover { height: 125px; }
- .library-title { font-size: 16px; margin: 16px 0 13px; }
  .product-content { padding: 28px 26px 31px; }
  .product-content h3 { font-size: 36px; }
  .product-content h4 { font-size: 19px; }
@@ -323,8 +262,6 @@ a:focus-visible,button:focus-visible { outline: 3px solid #ffcc42; outline-offse
  .hero-illustration-wrap { height: 330px; }
  .ribbon-inner { font-size: 7px; }
  .ribbon-inner b { font-size: 12px; }
- .paper-editor { width: 80%; }
- .library-frame { width: 84%; }
  .giant-quote,.tube-quote { padding: 8px; font-size: 9px; }
 }
 html[dir="rtl"] body { font-family: 'Heebo', Arial, sans-serif; }
