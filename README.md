@@ -7,7 +7,7 @@ A small, fast, static, responsive one-page website for **Bivlios Ltd.**, the com
 - Copy is written in Hebrew first and translated to English. All texts live in `script.js` (`copy.en` / `copy.he`); the English text is also in `index.html` as the initial render.
 - Hero: "We love books." Books Giant (create) is shown with Zoe (`assets/zoe-write.jpg`), BooksTube (read & listen) with Kai (`assets/key-read.jpg`).
 - Contact buttons link to the Books Giant contact page (`/en/contact` or `/he/contact` by language); the displayed email is `info@booksgiant.com`.
-- The hero plays the Books Giant school banner video from S3 (`animation-config.json`), with `assets/story-world.svg` as fallback.
+- Hero image: Kai with a magic wand (`assets/kai-wand.webp`, transparent background).
 - Vercel Web Analytics is loaded from `/_vercel/insights/script.js` (enable it in the Vercel project's Analytics tab).
 
 ## Files
@@ -15,7 +15,6 @@ A small, fast, static, responsive one-page website for **Bivlios Ltd.**, the com
 - `index.html` — structure, SEO metadata, initial English text
 - `styles.css` — design, responsive layout, RTL
 - `script.js` — EN/HE copy, language toggle, language-specific links
-- `brand-animation.js`, `animation-config.json` — hero video loader
 - `assets/` — logos (`logo-white.png`, `booksgiant-logo.png`, `bookstube-logo.png`), Zoe & Kai images, fallback illustrations
 - `favicon.png`, `apple-touch-icon.png`, `social-preview.png` — icons and share image
 - `robots.txt`, `sitemap.xml`, `vercel.json`, `.vercelignore` — deployment / indexing
