@@ -49,8 +49,8 @@
   };
 
   const links = {
-    en: { giant: 'https://www.booksgiant.com/en', tube: 'https://bookstube.ai/en' },
-    he: { giant: 'https://www.booksgiant.com/he', tube: 'https://bookstube.ai/he' }
+    en: { giant: 'https://www.booksgiant.com/en', tube: 'https://bookstube.ai/en', contact: 'https://www.booksgiant.com/en/contact' },
+    he: { giant: 'https://www.booksgiant.com/he', tube: 'https://bookstube.ai/he', contact: 'https://www.booksgiant.com/he/contact' }
   };
 
   function setLanguage(lang) {
@@ -72,7 +72,8 @@
       button.classList.toggle('is-active', active);
       button.setAttribute('aria-pressed', String(active));
     });
-    document.querySelectorAll('a[href*="booksgiant.com"]').forEach(a => a.href = links[selected].giant);
+    document.querySelectorAll('a[href*="booksgiant.com"]:not([data-contact])').forEach(a => a.href = links[selected].giant);
+    document.querySelectorAll('a[data-contact]').forEach(a => a.href = links[selected].contact);
     document.querySelectorAll('a[href*="bookstube.ai"]').forEach(a => a.href = links[selected].tube);
     document.title = selected === 'he' ? 'Bivlios | כותבים קטנים. סיפורים גדולים.' : 'Bivlios | Small writers. Big stories.';
     const description = document.querySelector('meta[name="description"]');
