@@ -1,6 +1,7 @@
 (() => {
   const copy = {
     en: {
+      zoeAlt: "Zoe writing a story on a tablet as castles, a ship and a dragon rise from the screen", kaiAlt: "Kai reading an illustrated book with a sleeping fox, as a whale and a hot-air balloon float out of the pages", meditateAlt: "Zoe and Kai sitting side by side on woven mats, eyes closed and smiling",
       skip: 'Skip to content', navMission: 'Our mission', navProducts: 'Our products', navContact: 'Contact', headerCta: "Let's connect",
       heroKicker: 'THE COMPANY BEHIND BOOKS GIANT & BOOKSTUBE', heroTitleA: "We love books.", heroTitleB: "And everything they make possible.",
       heroSubhead: "We believe every child has a story to tell, a world to imagine and a voice of their own worth hearing.", heroBody: "At Bivlios, we create digital worlds where children can write, create, read and listen to stories.",
@@ -24,6 +25,7 @@
       footerTagline: 'Helping young voices find their words.', footerLocation: 'Bivlios Ltd. · Israel', rights: 'All rights reserved.'
     },
     he: {
+      zoeAlt: "זואי כותבת סיפור בטאבלט, וטירות, ספינה ודרקון עולים מהמסך", kaiAlt: "קאי קורא ספר מאויר ליד שועל ישן, ולווייתן וכדור פורח יוצאים מהדפים", meditateAlt: "זואי וקאי יושבים זה לצד זה על מחצלות, בעיניים עצומות ומחייכים",
       skip: 'דילוג לתוכן', navMission: 'החזון שלנו', navProducts: 'המוצרים שלנו', navContact: 'יצירת קשר', headerCta: 'נדבר?',
       heroKicker: 'החברה שמאחורי ענק של ספרים ו־BooksTube', heroTitleA: "אנחנו אוהבים ספרים.", heroTitleB: "ואת כל מה שהם מאפשרים.",
       heroSubhead: "אנחנו מאמינים שלכל ילד יש סיפור לספר, עולם לדמיין וקול משלו שכדאי לשמוע.", heroBody: "ב־Bivlios אנחנו יוצרים עולמות דיגיטליים שבהם ילדים יכולים לכתוב, ליצור, לקרוא ולהקשיב לסיפורים.",
@@ -66,6 +68,10 @@
     document.querySelectorAll('[data-i18n]').forEach((node) => {
       const translated = copy[selected][node.dataset.i18n];
       if (translated !== undefined) node.textContent = translated;
+    });
+    document.querySelectorAll('[data-i18n-alt]').forEach((node) => {
+      const translated = copy[selected][node.dataset.i18nAlt];
+      if (translated !== undefined) node.alt = translated;
     });
     document.querySelectorAll('.lang-button').forEach((button) => {
       const active = button.dataset.lang === selected;

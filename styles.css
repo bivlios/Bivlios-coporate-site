@@ -130,13 +130,16 @@ h1 span { display: block; white-space: nowrap; }
 .product-endnote { margin-top: 45px; display: flex; align-items: center; justify-content: center; gap: 13px; color: #6b4daa; font-size: 13px; font-weight: 800; text-align: center; }
 .product-endnote span:first-child { color: #ec638b; font-size: 25px; }
 .contact-section { padding-block: 22px 80px; }
-.contact-panel { background: linear-gradient(115deg,#361494,#211064); border-radius: 24px; color: white; position: relative; isolation: isolate; padding: clamp(43px, 6vw, 85px); overflow: hidden; min-height: 395px; }
+.contact-panel { background: linear-gradient(115deg,#361494,#211064); border-radius: 24px; color: white; position: relative; isolation: isolate; padding: clamp(43px, 6vw, 85px); overflow: hidden; min-height: 395px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .78fr); gap: clamp(36px, 5vw, 70px); align-items: center; }
 .contact-panel:before { content: ''; position: absolute; z-index: -1; top: -200px; right: -110px; width: 510px; height: 510px; border: 2px solid #ffffff34; border-radius: 50%; }
 .contact-panel:after { content: ''; position: absolute; z-index: -1; bottom: -220px; right: -200px; width: 520px; height: 520px; border: 2px solid #ffffff1b; border-radius: 50%; }
 .contact-overline { color: #dfcbff; font-size: 11px; letter-spacing: .17em; font-weight: 900; margin-bottom: 25px; }
-.contact-panel h2 { font-size: clamp(49px, 5.2vw, 76px); line-height: 1.19; letter-spacing: -.065em; font-weight: 800; max-width: 950px; margin: 0 0 32px; }
+.contact-panel h2 { font-size: clamp(42px, 4.4vw, 62px); line-height: 1.19; letter-spacing: -.065em; font-weight: 800; max-width: 950px; margin: 0 0 32px; }
 .contact-panel h2 em { color: var(--yellow); font-style: normal; }
-.contact-lower { display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+.contact-lower { display: flex; flex-direction: column; align-items: flex-start; gap: 26px; }
+.contact-figure { margin: 0; }
+.contact-figure img { width: 100%; height: auto; border-radius: 22px; border: 6px solid #fff; box-shadow: 0 24px 50px #0d043a73; transform: rotate(2.5deg); }
+html[dir="rtl"] .contact-figure img { transform: rotate(-2.5deg); }
 .contact-lower p { color: #e5dcff; max-width: 460px; font-size: 15px; line-height: 1.8; margin: 0; }
 .contact-button { background: var(--yellow); color: #2a166c; display: inline-flex; gap: 30px; align-items: center; justify-content: space-between; border-radius: 12px; padding: 17px 24px; font-size: 14px; text-decoration: none; font-weight: 900; white-space: nowrap; transition: transform .2s, background .2s; }
 .contact-button:hover { transform: translateY(-3px); background: #ffe16c; }
@@ -194,7 +197,7 @@ a:focus-visible,button:focus-visible { outline: 3px solid #ffcc42; outline-offse
  .product-content h3 { font-size: 33px; }
  .product-content h4 { font-size: 18px; }
  .product-content p { font-size: 13px; }
- .contact-section { padding-block: 15px 55px; }
+ .contact-section { padding-block: 15px 55px; } .contact-panel { grid-template-columns: 1fr; } .contact-figure { max-width: 520px; }
 }
 @media (max-width: 620px) {
  .container { width: calc(100% - 42px); }
@@ -241,7 +244,7 @@ a:focus-visible,button:focus-visible { outline: 3px solid #ffcc42; outline-offse
  .product-content p { font-size: 14px; }
  .product-endnote { margin-top: 30px; font-size: 12px; }
  .contact-section { padding-block: 8px 55px; }
- .contact-panel { padding: 42px 29px; min-height: 0; }
+ .contact-panel { padding: 42px 29px; min-height: 0; grid-template-columns: 1fr; }
  .contact-panel h2 { font-size: clamp(42px,9.5vw,60px); margin-bottom: 25px; }
  .contact-overline { font-size: 9px; }
  .contact-lower { align-items: start; flex-direction: column; gap: 24px; }
