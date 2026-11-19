@@ -72,9 +72,9 @@
       button.classList.toggle('is-active', active);
       button.setAttribute('aria-pressed', String(active));
     });
-    document.querySelectorAll('a[href*="booksgiant.com"]:not([data-contact])').forEach(a => a.href = links[selected].giant);
+    document.querySelectorAll('a[href^="https://www.booksgiant.com"]:not([data-contact])').forEach(a => a.href = links[selected].giant);
     document.querySelectorAll('a[data-contact]').forEach(a => a.href = links[selected].contact);
-    document.querySelectorAll('a[href*="bookstube.ai"]').forEach(a => a.href = links[selected].tube);
+    document.querySelectorAll('a[href^="https://bookstube.ai"]').forEach(a => a.href = links[selected].tube);
     document.title = selected === 'he' ? 'Bivlios | כותבים קטנים. סיפורים גדולים.' : 'Bivlios | Small writers. Big stories.';
     const description = document.querySelector('meta[name="description"]');
     if (description) description.content = selected === 'he' ? 'ביבליוס מפתחת סביבות דיגיטליות לכתיבה יוצרת, איור ספרים וקריאה לילדים. הכירו את ענק של ספרים ואת BooksTube.' : 'Bivlios builds creative learning experiences that help children write, illustrate, publish and read stories. Meet Books Giant and BooksTube.';

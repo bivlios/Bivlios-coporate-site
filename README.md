@@ -50,7 +50,7 @@ Based on the live public pages at:
 - https://bookstube.ai/en
 - https://www.booksgiant.com/en/terms
 
-The displayed contact `support@bivlios.com` appears in Books Giant's official 2026 Terms of Use. Confirm that this is the best **business / partnership** mailbox before switching DNS. Public product links and address should be double checked right before launch.
+Contact buttons link to the Books Giant contact page (EN/HE by language); the displayed email is `info@booksgiant.com`. Public product links and address should be double checked right before launch.
 
 ## Updating copy or colors
 
