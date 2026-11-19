@@ -2,48 +2,48 @@
   const copy = {
     en: {
       skip: 'Skip to content', navMission: 'Our mission', navProducts: 'Our products', navContact: 'Contact', headerCta: "Let's connect",
-      heroKicker: 'THE COMPANY BEHIND BOOKS GIANT & BOOKSTUBE', heroTitleA: 'Small writers.', heroTitleB: 'Big stories.',
-      heroSubhead: 'Every child has a story worth writing.', heroBody: "We create playful digital spaces where children's own ideas become stories, illustrations and real books they can proudly share.",
-      heroAction: 'Explore our products', heroSecondary: 'Why we build', heroSignoff: 'Built around imagination, expression and the joy of writing.', stickerOne: 'Ideas come alive!', stickerTwo: 'Made by young minds',
+      heroKicker: 'THE COMPANY BEHIND BOOKS GIANT & BOOKSTUBE', heroTitleA: "We love books.", heroTitleB: "And everything they make possible.",
+      heroSubhead: "We believe every child has a story to tell, a world to imagine and a voice of their own worth hearing.", heroBody: "At Bivlios, we create digital worlds where children can write, create, read and listen to stories.",
+      heroAction: 'Explore our products', heroSecondary: 'Why we build', heroSignoff: "Because a good story can begin in one child's imagination — and travel far beyond the page.", stickerOne: 'Ideas come alive!', stickerTwo: 'Made by young minds',
       ribbonOne: 'IMAGINE IT', ribbonTwo: 'WRITE IT', ribbonThree: 'ILLUSTRATE IT', ribbonFour: 'SHARE IT',
-      missionEyebrow: 'WHAT WE BELIEVE', missionTitleA: 'Not just reading stories.', missionTitleB: 'Creating them.',
-      missionLead: 'Writing gives children a voice — and the confidence to use it.',
-      missionBody: "Bivlios is an Israeli education technology company connecting writing, imagination and reading. Our tools support young authors from the first idea to the finished book, with AI as a creative helper — never a replacement for the child's voice.",
+      missionEyebrow: "ABOUT US", missionTitleA: "Books are", missionTitleB: "our world.",
+      missionLead: "We love the moment a child gets lost in a story, the pride of finishing a book of their own, and the spark in their eyes when imagination becomes something you can see, read and share.",
+      missionBody: "Out of that love we created Books Giant and BooksTube — two platforms that complement each other. One gives children the tools to create their own stories. The other opens a rich, free library of stories to read and listen to.", missionTogetherA: "Together, they connect the two worlds we love most:", missionTogetherB: "creating stories and discovering stories.",
       pillarOne: 'Their words', pillarTwo: 'Their imagination', pillarThree: 'Their book',
       productsEyebrow: 'THE BIVLIOS FAMILY', productsTitleA: 'Two worlds.', productsTitleB: 'Endless stories.',
       productsIntro: 'One place to make books. Another to discover them. Together, they inspire a lifelong love of words, stories and creativity.',
-      giantSticker: 'I am the author!', giantLabel: '01 / WRITE & CREATE', giantTitle: 'Where children become authors.',
-      giantText: 'A creative book-making platform for children, teachers and schools. Write stories, illustrate ideas, make class books and share or print finished creations — with helpful AI tools along the way.',
-      giantChipOne: 'Creative writing', giantChipTwo: 'Illustration', giantChipThree: 'Real books', giantCta: 'Visit Books Giant',
-      libraryTitle: 'What will you read today?', tubeSticker: 'Open a book. Enter a world.', tubeLabel: '02 / READ & DISCOVER', tubeTitle: 'A library full of possibilities.',
-      tubeText: 'A free collection of illustrated books for curious children and families. Explore stories about science, nature, history, emotions and more. No sign-up needed — just open and read.',
-      tubeChipOne: 'Free reading', tubeChipTwo: 'Illustrated books', tubeChipThree: 'Discover & learn', tubeCta: 'Explore BooksTube',
+      giantSticker: "Create your own story.", giantLabel: '01 / WRITE & CREATE', giantTitle: "Every child has a story of their own.",
+      giantText: "Every child has ideas, dreams and stories that only they can tell. Books Giant lets children turn their ideas into real books — writing, illustrating, designing and creating a digital book of their own.", giantText2: "Creating gives children a chance to express themselves, grow their imagination, try their hand at writing and discover the joy of making something entirely their own. The books they create can also be printed, held in their hands and kept as a keepsake.", giantTagline: "From a child's imagination — to a book of their own.",
+      giantChipOne: 'Creative writing', giantChipTwo: 'Illustration', giantChipThree: 'Real books', giantCta: "Let's create a book",
+      libraryTitle: 'What will you read today?', tubeSticker: "Discover a world in every book.", tubeLabel: '02 / READ & DISCOVER', tubeTitle: "Open a book. Step into a world.",
+      tubeText: "A good book can take us anywhere — to an enchanted forest, a journey through the stars, another time in history or an adventure we have yet to imagine. BooksTube is a free digital library for children, full of books and stories to read or listen to.", tubeText2: "Adventure and fantasy, nonfiction, nature, science and many more worlds waiting to be discovered. We believe reading sparks curiosity, enriches the imagination and opens doors to new worlds.", tubeTagline: "So many moments of imagination. One library, open to everyone.",
+      tubeChipOne: 'Free reading', tubeChipTwo: "Read & listen", tubeChipThree: 'Discover & learn', tubeCta: "Let's read a book",
       productsFootnote: 'Reading sparks ideas. Writing gives them a voice.',
-      contactEyebrow: "LET'S CREATE SOMETHING MEANINGFUL", contactTitleA: 'Have a story', contactTitleB: 'to build together?',
-      contactBody: "For educational partnerships, collaborations or product questions, we'd love to hear from you.", contactCta: 'Get in touch',
+      contactEyebrow: "EVERY STORY OPENS A WORLD", contactTitleA: "Where stories are born,", contactTitleB: "and imagination takes flight.",
+      contactBody: "Sometimes children want to discover a story someone else wrote. And sometimes they want to tell their own. We're here to make both possible. For partnerships, collaborations or questions — we'd love to hear from you.", contactCta: 'Get in touch',
       footerTagline: 'Helping young voices find their words.', footerLocation: 'Bivlios Ltd. · Israel', rights: 'All rights reserved.'
     },
     he: {
       skip: 'דילוג לתוכן', navMission: 'החזון שלנו', navProducts: 'המוצרים שלנו', navContact: 'יצירת קשר', headerCta: 'נדבר?',
-      heroKicker: 'החברה שמאחורי ענק של ספרים ו־BooksTube', heroTitleA: 'כותבים קטנים.', heroTitleB: 'סיפורים גדולים.',
-      heroSubhead: 'לכל ילד יש סיפור שראוי להיכתב.', heroBody: 'אנחנו יוצרים סביבות דיגיטליות מלאות דמיון, שבהן רעיונות של ילדים הופכים לסיפורים, לאיורים ולספרים אמיתיים שהם גאים לשתף.',
-      heroAction: 'הכירו את המוצרים', heroSecondary: 'מה מניע אותנו', heroSignoff: 'נותנים מקום לדמיון, לביטוי אישי ולהנאה שבכתיבה.', stickerOne: 'הרעיונות מתעוררים לחיים!', stickerTwo: 'יצירה של ילדים',
+      heroKicker: 'החברה שמאחורי ענק של ספרים ו־BooksTube', heroTitleA: "אנחנו אוהבים ספרים.", heroTitleB: "ואת כל מה שהם מאפשרים.",
+      heroSubhead: "אנחנו מאמינים שלכל ילד יש סיפור לספר, עולם לדמיין וקול משלו שכדאי לשמוע.", heroBody: "ב־Bivlios אנחנו יוצרים עולמות דיגיטליים שבהם ילדים יכולים לכתוב, ליצור, לקרוא ולהקשיב לסיפורים.",
+      heroAction: 'הכירו את המוצרים', heroSecondary: 'מה מניע אותנו', heroSignoff: "כי סיפור טוב יכול להתחיל בדמיון של ילד אחד ולהגיע הרבה מעבר לדף.", stickerOne: 'הרעיונות מתעוררים לחיים!', stickerTwo: 'יצירה של ילדים',
       ribbonOne: 'מדמיינים', ribbonTwo: 'כותבים', ribbonThree: 'מאיירים', ribbonFour: 'משתפים',
-      missionEyebrow: 'במה אנחנו מאמינים', missionTitleA: 'לא רק לקרוא סיפורים.', missionTitleB: 'גם ליצור אותם.',
-      missionLead: 'כתיבה נותנת לילדים קול — ואת הביטחון להשמיע אותו.',
-      missionBody: 'Bivlios היא חברת טכנולוגיה חינוכית ישראלית המחברת בין כתיבה, דמיון וקריאה. אנחנו מלווים יוצרים צעירים מהרגע שבו נולד רעיון ועד לספר המוגמר, כשהבינה המלאכותית מסייעת ליצירה — ולא מחליפה את הקול של הילד.',
+      missionEyebrow: "קצת עלינו", missionTitleA: "ספרים הם", missionTitleB: "העולם שלנו.",
+      missionLead: "אנחנו אוהבים את הרגע שבו ילד נשאב לתוך סיפור, את הגאווה כשהוא מסיים לכתוב ספר משלו ואת הניצוץ בעיניים כשהדמיון הופך למשהו שאפשר לראות, לקרוא ולשתף.",
+      missionBody: "מתוך האהבה הזו יצרנו את Books Giant ואת BooksTube — שתי פלטפורמות שמשלימות זו את זו. האחת נותנת לילדים את הכלים ליצור סיפורים משלהם. השנייה פותחת בפניהם ספרייה עשירה וחינמית של סיפורים לקריאה ולהאזנה.", missionTogetherA: "ביחד, הן מחברות בין שני העולמות שאנחנו הכי אוהבים:", missionTogetherB: "ליצור סיפורים ולגלות סיפורים.",
       pillarOne: 'המילים שלהם', pillarTwo: 'הדמיון שלהם', pillarThree: 'הספר שלהם',
       productsEyebrow: 'המוצרים של Bivlios', productsTitleA: 'שני עולמות.', productsTitleB: 'אינסוף סיפורים.',
       productsIntro: 'במקום אחד יוצרים ספרים, ובשני מגלים אותם. יחד הם מטפחים אהבה למילים, לסיפורים וליצירתיות.',
-      giantSticker: 'אני הסופר!', giantLabel: '01 / כותבים ויוצרים', giantTitle: 'כאן ילדים הופכים לסופרים.',
-      giantText: 'סביבה יצירתית להכנת ספרים לילדים, למורים ולבתי ספר. כותבים סיפורים, מאיירים רעיונות, יוצרים ספרים כיתתיים ומשתפים או מדפיסים את היצירות — עם כלי AI שמסייעים לאורך הדרך.',
-      giantChipOne: 'כתיבה יוצרת', giantChipTwo: 'איור ועיצוב', giantChipThree: 'ספרים אמיתיים', giantCta: 'לאתר ענק של ספרים',
-      libraryTitle: 'מה נקרא היום?', tubeSticker: 'פותחים ספר. נכנסים לעולם.', tubeLabel: '02 / קוראים ומגלים', tubeTitle: 'ספרייה מלאה בעולמות חדשים.',
-      tubeText: 'ספרייה חינמית של ספרים מאוירים לילדים סקרנים ולמשפחות. סיפורים על מדע, טבע, היסטוריה, רגשות ועוד. לא צריך להירשם — רק לבחור ספר ולהתחיל לקרוא.',
-      tubeChipOne: 'קריאה בחינם', tubeChipTwo: 'ספרים מאוירים', tubeChipThree: 'לגלות וללמוד', tubeCta: 'לספריית BooksTube',
+      giantSticker: "ליצור את הסיפור שלך.", giantLabel: '01 / כותבים ויוצרים', giantTitle: "כל ילד והסיפור שלו.",
+      giantText: "לכל ילד יש רעיונות, חלומות וסיפורים שרק הוא יכול לספר. Books Giant מאפשרת לילדים להפוך את הרעיונות שלהם לספרים אמיתיים — לכתוב, לאייר, לעצב וליצור ספר דיגיטלי משלהם.", giantText2: "היצירה מעניקה לילדים הזדמנות לבטא את עצמם, לפתח את הדמיון, להתנסות בכתיבה ולגלות את השמחה שביצירת משהו שהוא לגמרי שלהם. ואת הספרים שהם יוצרים אפשר גם להדפיס, להחזיק ביד ולשמור למזכרת.", giantTagline: "מהדמיון של הילד — לספר משלו.",
+      giantChipOne: 'כתיבה יוצרת', giantChipTwo: 'איור ועיצוב', giantChipThree: 'ספרים אמיתיים', giantCta: "בואו ליצור ספר",
+      libraryTitle: 'מה נקרא היום?', tubeSticker: "לגלות עולם בכל ספר.", tubeLabel: '02 / קוראים ומגלים', tubeTitle: "פותחים ספר. נכנסים לעולם.",
+      tubeText: "ספר טוב יכול לקחת אותנו לכל מקום — ליער קסום, למסע בין כוכבים, לתקופה אחרת בהיסטוריה או להרפתקה שעוד לא דמיינו. BooksTube היא ספרייה דיגיטלית חינמית לילדים, עם מגוון ספרים וסיפורים שאפשר לקרוא או להאזין להם.", tubeText2: "סיפורי הרפתקאות ודמיון, ספרי ידע, טבע, מדע ועוד עולמות שמחכים להתגלות. אנחנו מאמינים שקריאה מעוררת סקרנות, מעשירה את הדמיון ופותחת דלתות לעולמות חדשים.", tubeTagline: "כל כך הרבה רגעים של דמיון. ספרייה אחת פתוחה לכולם.",
+      tubeChipOne: 'קריאה בחינם', tubeChipTwo: "לקרוא ולהאזין", tubeChipThree: 'לגלות וללמוד', tubeCta: "בואו לקרוא ספר",
       productsFootnote: 'הקריאה מעוררת רעיונות. הכתיבה נותנת להם קול.',
-      contactEyebrow: 'בואו ניצור משהו משמעותי', contactTitleA: 'יש לכם רעיון', contactTitleB: 'שנוכל ליצור יחד?',
-      contactBody: 'לשיתופי פעולה בחינוך, שותפויות או שאלות על המוצרים — נשמח לשמוע מכם.', contactCta: 'דברו איתנו',
+      contactEyebrow: "כל סיפור פותח עולם", contactTitleA: "מקום שבו סיפורים נולדים,", contactTitleB: "ודמיון מקבל כנפיים.",
+      contactBody: "לפעמים ילדים רוצים לגלות סיפור שמישהו אחר כתב, ולפעמים הם רוצים לספר את הסיפור של עצמם. אנחנו כאן כדי לאפשר להם את שניהם. לשיתופי פעולה, שותפויות או שאלות — נשמח לשמוע מכם.", contactCta: 'דברו איתנו',
       footerTagline: 'עוזרים לקולות צעירים למצוא את המילים שלהם.', footerLocation: 'ביבליוס בע״מ · ישראל', rights: 'כל הזכויות שמורות.'
     }
   };
@@ -75,9 +75,9 @@
     document.querySelectorAll('a[href^="https://www.booksgiant.com"]:not([data-contact])').forEach(a => a.href = links[selected].giant);
     document.querySelectorAll('a[data-contact]').forEach(a => a.href = links[selected].contact);
     document.querySelectorAll('a[href^="https://bookstube.ai"]').forEach(a => a.href = links[selected].tube);
-    document.title = selected === 'he' ? 'Bivlios | כותבים קטנים. סיפורים גדולים.' : 'Bivlios | Small writers. Big stories.';
+    document.title = selected === 'he' ? 'Bivlios | אנחנו אוהבים ספרים.' : 'Bivlios | We love books.';
     const description = document.querySelector('meta[name="description"]');
-    if (description) description.content = selected === 'he' ? 'ביבליוס מפתחת סביבות דיגיטליות לכתיבה יוצרת, איור ספרים וקריאה לילדים. הכירו את ענק של ספרים ואת BooksTube.' : 'Bivlios builds creative learning experiences that help children write, illustrate, publish and read stories. Meet Books Giant and BooksTube.';
+    if (description) description.content = selected === 'he' ? 'ב־Bivlios אנחנו יוצרים עולמות דיגיטליים שבהם ילדים כותבים, יוצרים, קוראים ומאזינים לסיפורים. הכירו את Books Giant ואת BooksTube.' : 'Bivlios creates digital worlds where children write, create, read and listen to stories. Meet Books Giant and BooksTube.';
     try { sessionStorage.setItem('bivlios-language', selected); } catch (_) { /* storage may be unavailable */ }
   }
 

@@ -365,3 +365,9 @@ html[dir="rtl"] h1 span { white-space: normal; }
   .hero-illustration-wrap.has-original-animation .hero-illustration { opacity: 1; visibility: visible; }
   .hero-animated-media { display: none; }
 }
+
+/* New copy: long second hero line, mission closing line, product taglines */
+h1 .hero-title-sub { white-space: normal; font-size: .52em; letter-spacing: -.045em; line-height: 1.15; margin-top: 10px; }
+.mission-together { font-size: 17px; line-height: 1.7; }
+.mission-together strong { color: var(--purple-ink, #2b1b65); }
+.product-content .product-tagline { font-weight: 800; color: #2b1b65; }
