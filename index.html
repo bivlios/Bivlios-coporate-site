@@ -26,6 +26,14 @@
   <!-- Vercel Web Analytics (cookieless). Enable it in the Vercel dashboard: Project → Analytics. -->
   <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
   <script defer src="/_vercel/insights/script.js"></script>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCEDHM03YW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FCEDHM03YW');
+  </script>
   <script src="script.js" defer></script>
 </head>
 <body>

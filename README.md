@@ -9,6 +9,7 @@ A small, fast, static, responsive one-page website for **Bivlios Ltd.**, the com
 - Contact buttons link to the Books Giant contact page (`/en/contact` or `/he/contact` by language); the displayed email is `info@booksgiant.com`.
 - Hero image: Kai with a magic wand (`assets/kai-wand.webp`, transparent background).
 - Vercel Web Analytics is loaded from `/_vercel/insights/script.js` (enable it in the Vercel project's Analytics tab).
+- Google Analytics 4 (`G-FCEDHM03YW`) is loaded in `index.html` `<head>`; view it at analytics.google.com.
 
 ## Files
 
